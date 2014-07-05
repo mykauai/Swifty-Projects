@@ -10,6 +10,8 @@
 		DC0E0B2E1967BC6100BD7380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0B2D1967BC6100BD7380 /* AppDelegate.swift */; };
 		DC0E0B301967BC6100BD7380 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0E0B2F1967BC6100BD7380 /* Images.xcassets */; };
 		DC0E0B3C1967BC6100BD7380 /* Swifty_ProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0B3B1967BC6100BD7380 /* Swifty_ProjectsTests.swift */; };
+		DC0E0B471967BE1600BD7380 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0B461967BE1600BD7380 /* Island.swift */; };
+		DC0E0B491967C6E700BD7380 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0B481967C6E700BD7380 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 		DC0E0B351967BC6100BD7380 /* Swifty-ProjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifty-ProjectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0E0B3A1967BC6100BD7380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC0E0B3B1967BC6100BD7380 /* Swifty_ProjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_ProjectsTests.swift; sourceTree = "<group>"; };
+		DC0E0B461967BE1600BD7380 /* Island.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Island.swift; path = "Swifty-Projects/Overview/Island.swift"; sourceTree = "<group>"; };
+		DC0E0B481967C6E700BD7380 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		DC0E0B1F1967BC6100BD7380 = {
 			isa = PBXGroup;
 			children = (
+				DC0E0B451967BDDE00BD7380 /* Overview */,
 				DC0E0B2A1967BC6100BD7380 /* Swifty-Projects */,
 				DC0E0B381967BC6100BD7380 /* Swifty-ProjectsTests */,
 				DC0E0B291967BC6100BD7380 /* Products */,
@@ -101,6 +106,15 @@
 				DC0E0B3A1967BC6100BD7380 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0E0B451967BDDE00BD7380 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E0B461967BE1600BD7380 /* Island.swift */,
+				DC0E0B481967C6E700BD7380 /* Note.swift */,
+			);
+			name = Overview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0E0B471967BE1600BD7380 /* Island.swift in Sources */,
 				DC0E0B2E1967BC6100BD7380 /* AppDelegate.swift in Sources */,
+				DC0E0B491967C6E700BD7380 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +395,7 @@
 				DC0E0B411967BC6100BD7380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC0E0B421967BC6100BD7380 /* Build configuration list for PBXNativeTarget "Swifty-ProjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +404,7 @@
 				DC0E0B441967BC6100BD7380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
