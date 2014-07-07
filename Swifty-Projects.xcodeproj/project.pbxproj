@@ -12,6 +12,7 @@
 		DC0E0B3C1967BC6100BD7380 /* Swifty_ProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0B3B1967BC6100BD7380 /* Swifty_ProjectsTests.swift */; };
 		DC0E0B471967BE1600BD7380 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0B461967BE1600BD7380 /* Island.swift */; };
 		DCCC16A91968196B00121BF4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC16A81968196B00121BF4 /* Note.swift */; };
+		DCCC16AB19681ADD00121BF4 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCC16AA19681ADD00121BF4 /* MainScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		DC0E0B3B1967BC6100BD7380 /* Swifty_ProjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_ProjectsTests.swift; sourceTree = "<group>"; };
 		DC0E0B461967BE1600BD7380 /* Island.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Island.swift; path = "Swifty-Projects/Overview/Island.swift"; sourceTree = "<group>"; };
 		DCCC16A81968196B00121BF4 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = "Swifty-Projects/Overview/Note.swift"; sourceTree = "<group>"; };
+		DCCC16AA19681ADD00121BF4 /* MainScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainScreen.xib; path = Overview/MainScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				DC0E0B2D1967BC6100BD7380 /* AppDelegate.swift */,
 				DC0E0B2F1967BC6100BD7380 /* Images.xcassets */,
 				DC0E0B2B1967BC6100BD7380 /* Supporting Files */,
+				DCCC16AA19681ADD00121BF4 /* MainScreen.xib */,
 			);
 			path = "Swifty-Projects";
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCC16AB19681ADD00121BF4 /* MainScreen.xib in Resources */,
 				DC0E0B301967BC6100BD7380 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
